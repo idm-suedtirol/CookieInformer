@@ -1,20 +1,30 @@
-function removeMe(){
+function removeMe(lan){
         var date= new Date();
         date.setTime(date.getTime()+(24*60*60*1000));
         var expires = "; expire="+date.toGMTString();
   // Für Testzwecke auskommentiert
   //      document.cookie="cookiebanner=true; "+expires;
         
-        var element=document.getElementById("cookie");
+        var element=document.getElementById("cookie"+lan);
         element.style.maxHeight= "0px";
 }
 
 window.onload = function(){
+    var lan = "de";
     var cookiebanner = getCookie("cookiebanner");
     if(cookiebanner!=""){
         console.log(document);
         var element=document.getElementById("cookie");
         element.style.display="none";
+    }else{
+        if(lan=="de"){
+            document.getElementById("cookie").style.display="none";
+            document.getElementById("cookiede").style.display="block";
+        }else
+        if(lan=="en"){
+            document.getElementById("cookie").style.display="none";
+            document.getElementById("cookieen").style.display="block";
+        }
     }
 }
 

@@ -1,11 +1,56 @@
 #cookie {
     background-color: #00ADEF;
-    margin: -10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
     max-height: 500px;
     position: relative;
-    display: block;
     overflow: hidden;
     transition: max-height linear 1s;
+}
+
+#cookiede{
+    background-color: #00ADEF;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    max-height: 500px;
+    position: relative;
+    display: none;
+    overflow: hidden;
+    transition: max-height linear 1s;
+}
+
+#cookiede p{
+    padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: relative;
+    font-size: 1.2em;
+    text-align:center;
+    margin:0;
+}
+
+#cookieen{
+    background-color: #00ADEF;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    max-height: 500px;
+    position: relative;
+    display: none;
+    overflow: hidden;
+    transition: max-height linear 1s;
+}
+
+#cookieen p{
+    padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: relative;
+    font-size: 1.2em;
+    text-align:center;
+    margin:0;
 }
 
 #cookie p{
@@ -27,6 +72,7 @@ button {
   font-size: 17px;
   padding: 2px 4px 2px 4px;
   text-decoration: none;
+  margin-left: 8px;
 }
 
 button:hover {
