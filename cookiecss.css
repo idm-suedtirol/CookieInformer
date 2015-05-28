@@ -1,0 +1,45 @@
+#cookie {
+    background-color: #00ADEF;
+    margin: -10px;
+    max-height: 500px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    transition: max-height linear 1s;
+}
+
+#cookie p{
+    padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: relative;
+    font-size: 1.2em;
+    text-align:center;
+    margin:0;
+}
+
+button {
+  background: #ffffff;
+  background-image: linear-gradient(to bottom, #ffffff, #d6d6d6);
+  border-radius: 3px;
+  font-family: Arial;
+  color: #00ADEF;
+  font-size: 17px;
+  padding: 2px 4px 2px 4px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #ebebeb;
+  background-image: -webkit-linear-gradient(top, #ebebeb, #d6d6d6);
+  background-image: -moz-linear-gradient(top, #ebebeb, #d6d6d6);
+  background-image: -ms-linear-gradient(top, #ebebeb, #d6d6d6);
+  background-image: -o-linear-gradient(top, #ebebeb, #d6d6d6);
+  background-image: linear-gradient(to bottom, #ebebeb, #d6d6d6);
+  text-decoration: none;
+}
+
+
+
+
+

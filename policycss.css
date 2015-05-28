@@ -1,0 +1,41 @@
+h1{
+    color:#00AEDF;
+    text-align: center;
+    font-family: "Quicksand", FreeSans, sans-serif;
+    font-size:44px;
+}
+
+h2{
+    color:#00AEDF;
+    font-family: "Helvetica Neue", Arial, FreeSans, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4{
+    color:#00AEDF;
+    margin-top: 3px;
+    margin-bottom: 3px
+}
+
+p {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+table{
+    width: 100%
+}
+
+td{
+    border: 1px solid white;
+    font-size: 15px;
+    line-height:21px;
+}
+tr:nth-child(even) {background: lightgrey}
+tr:nth-child(odd) {background: silver}
+
+th{
+    border:1px solid white;
+    background-color: #00AEDF
+}
