@@ -10,7 +10,7 @@ function removeMe(lan){
 }
 
 window.onload = function(){
-    var lan = "de";
+    var lan = "";
     var cookiebanner = getCookie("cookiebanner");
     if(cookiebanner!=""){
         console.log(document);
