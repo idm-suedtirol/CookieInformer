@@ -10,19 +10,19 @@ function removeMe(lan){
 }
 
 window.onload = function(){
-    var lan = "";
+    var lan = "en";
     var cookiebanner = getCookie("cookiebanner");
     if(cookiebanner!=""){
         console.log(document);
-        var element=document.getElementById("cookie");
+        var element=document.getElementById("cookieit");
         element.style.display="none";
     }else{
         if(lan=="de"){
-            document.getElementById("cookie").style.display="none";
+            document.getElementById("cookieit").style.display="none";
             document.getElementById("cookiede").style.display="block";
         }else
         if(lan=="en"){
-            document.getElementById("cookie").style.display="none";
+            document.getElementById("cookieit").style.display="none";
             document.getElementById("cookieen").style.display="block";
         }
     }
