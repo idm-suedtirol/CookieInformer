@@ -10,7 +10,6 @@ function removeMe(){
         
         var element=document.getElementById("cookie"+lang);
         element.style.maxHeight= "0px";
-        window.parent.document.getElementById("cookieiframe").maxHeight="0px";
 }
 
 window.onload = function(){
