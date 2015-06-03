@@ -6,7 +6,7 @@
 
 How-To:
 *   1\.Die index.html Seite wird im src Attribute eines IFrames übergeben, dass eine Seite in einer Seite aufruft.
-    <pre><iframe src="index.html"><p>Text falls der Browser keine IFrames unterstützt.</iframe></pre>
+    <pre> \<iframe src="index.html">\<p>Text falls der Browser keine IFrames unterstützt.\</p>\</iframe> </pre>
 *   2\.(optional)Der Link kann mit den Parameter lang versehen werden. Bei lang=de wird das Banner auf Deutsch angezeigt, bei lang=en auf Englisch und Standartmäßig auf Italienisch.
-    <pre><iframe src="index.html?lang=de"><p>Text falls der Browser keine IFrames unterstützt.</iframe> Für Deutsch
-     <iframe src="index.html?lang=en"><p>Text falls der Browser keine IFrames unterstützt.</iframe> Für Englisch</pre>
+    <pre> \<iframe src="index.html?lang=de">\<p>Text falls der Browser keine IFrames unterstützt.\</p>\</iframe> Für Deutsch
+     \<iframe src="index.html?lang=en">\<p>Text falls der Browser keine IFrames unterstützt.\</p>\</iframe> Für Englisch </pre>
