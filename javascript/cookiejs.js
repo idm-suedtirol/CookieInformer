@@ -3,9 +3,9 @@ var lang="";
 
 function removeMe(){
         var date= new Date();
-        date.setTime(date.getTime()+(24*60*60*1000));
+        date.setTime(date.getTime()+(30*24*60*60*1000));
         var expires = "; expire="+date.toGMTString();
-        window.parent.document.cookie="cookiebanner=true; "+expires;
+        document.cookie="cookiebanner=true; "+expires;
         
         var element=document.getElementById("cookie"+lang);
         element.style.maxHeight= "0px";
@@ -13,8 +13,6 @@ function removeMe(){
 
 window.onload = function(){
     lang = location.search.split('lang=')[1] ? location.search.split('lang=')[1] : 'it';
-    window.parent.document.addEventListener("click", removeMe);
-    window.parent.document.addEventListener("scroll", removeMe);
     var cookiebanner = getCookie("cookiebanner");
     if(cookiebanner!=""){
         console.log(document);
