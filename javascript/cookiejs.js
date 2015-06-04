@@ -1,12 +1,7 @@
 var lang="";
 
 
-function removeMe(){
-        var date= new Date();
-        date.setTime(date.getTime()+(30*24*60*60*1000));
-        var expires = "; expire="+date.toGMTString();
-        document.cookie="cookiebanner=true; "+expires;
-        
+function removeMe(){        
         var element=document.getElementById("cookie"+lang);
         element.style.maxHeight= "0px";
 }
