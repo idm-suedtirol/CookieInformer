@@ -1,11 +1,5 @@
 var lang="";
 
-
-function removeMe(){        
-        var element=document.getElementById("cookie"+lang);
-        element.style.maxHeight= "0px";
-}
-
 window.onload = function(){
     lang = location.search.split('lang=')[1] ? location.search.split('lang=')[1] : 'it';
     var cookiebanner = getCookie("cookiebanner");

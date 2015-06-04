@@ -1,7 +1,12 @@
 #myiframe {
     width: 100%;
-    max-height: 65px;
+    max-height: 108px;
     position: relative;
     overflow: hidden;
     transition: max-height linear 1s;
+    margin: 0px;
+}
+
+body{ 
+    margin: 0px;
 }

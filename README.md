@@ -17,8 +17,8 @@ How-To:
     `<iframe src="{domain of Banner}" scrolling="no" frameborder="0"><p>Text if the browser doesn't support IFrames</p></iframe>`
     
 3. The Css-File iframe.css and the Js-File iframescript.js must be included on your website
-   `<link rel="stylesheet" href="css/iframe.css" type="text/css">`
-   `<script type="text/javascript" src="javascript/iframescript.js"></script>`
+   `<link rel="stylesheet" href="{domain of Banner}/css/iframe.css" type="text/css">`
+   `<script type="text/javascript" src="{domain of Banner}/javascript/iframescript.js"></script>`
                                             
 
 3. (optional) The link may be provided with the parameter lang. When lang = de the banner appears in German, if lang = en     it appears in English and if lang = anything else the banner appears in Italian by default.
