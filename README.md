@@ -6,8 +6,8 @@
 
 How-To:
 
-1. The {domainOfBanner} page is passed in the src attribute of an IFrame that calls a page in a page.
-    `<iframe src="{domain of Banner}"><p>Text if the browser doesn't support IFrames</p></iframe>`
+1. The {domainOfBanner} page is passed in the src attribute of an IFrame that calls a page in a page. You also have to pass it the id="myiframe".
+    `<iframe src="{domain of Banner}" id="myiframe"><p>Text if the browser doesn't support IFrames</p></iframe>`
 
 2. The IFrame must be provided with the following attributes: 
     *   `scrolling:no;`
