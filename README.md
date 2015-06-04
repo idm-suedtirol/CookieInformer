@@ -1,12 +1,14 @@
 # CookieInformer
 
-*   Der CookieInformer ist ein Banner, das darauf hinweist, dass auf der besuchten Seite Cookies gesetzt werden.
-*   Der CookieInformer dient rein zur Information und bewerkstelligt keine Änderungen in den Einstellungen ihres Browsers. 
-*   Dieser Cookiebanner kann auf die betroffenen Seiten eingebunden werden und verweist auf die policy-Seite der Cookies.
+*   The cookie Informer is a banner that indicates that cookies are set on this website.
+*   The cookie Informer is purely for information and accomplishes no changes in your browser settings.
+*   This cookie Banner can be integrated to any website, referring to the Cookie-policy-side.
 
 How-To:
-*   1\.Die index.html Seite wird im src Attribute eines IFrames übergeben, dass eine Seite in einer Seite aufruft.
-    <pre> \<iframe src="index.html">\<p>Text falls der Browser keine IFrames unterstützt.\</p>\</iframe> </pre>
-*   2\.(optional)Der Link kann mit den Parameter lang versehen werden. Bei lang=de wird das Banner auf Deutsch angezeigt, bei lang=en auf Englisch und Standartmäßig auf Italienisch.
-    <pre> \<iframe src="index.html?lang=de">\<p>Text falls der Browser keine IFrames unterstützt.\</p>\</iframe> Für Deutsch
-     \<iframe src="index.html?lang=en">\<p>Text falls der Browser keine IFrames unterstützt.\</p>\</iframe> Für Englisch </pre>
+
+1. The index.html page is passed in the src attribute of an IFrame that calls a page in a page.
+    <pre> \<iframe src="index.html">\<p>Text if the browser doesn't support IFrames\</p>\</iframe> </pre>
+
+2. (optional) The link may be provided with the parameter lang. When lang = de the banner appears in German, if lang = en     it appears in English and if lang = anything else the banner appears in Italian by default.
+    <pre> \<iframe src="index.html?lang=de">\<p>Text if the browser doesn't support IFrames\</p>\</iframe> For German
+     \<iframe src="index.html?lang=en">\<p>Text if the browser doesn't support IFrames.\</p>\</iframe> For English </pre>
