@@ -1,12 +1,65 @@
+
 #myiframe {
     width: 100%;
     max-height: 76px;
     position: relative;
     overflow: hidden;
     transition: max-height linear 1s;
-    margin: 0px;
+    margin: 0;
 }
 
-body{ 
-    margin: 0px;
+body{
+    margin:0;
+}
+
+@media (max-width: 1383px) {
+    #myiframe{
+        max-height: 97px;
+    }
+}
+
+@media (max-width: 937px) {
+    #myiframe{
+        max-height: 118px;
+    }
+}
+
+@media (max-width: 734px) {
+    #myiframe{
+        max-height: 139px;
+    }
+}
+
+@media (max-width: 588px) {
+    #myiframe{
+        max-height: 160px;
+        height:160px;
+    }
+}
+@media (max-width: 460px) {
+    #myiframe{
+        max-height: 181px;
+        height: 181px;
+    }
+}
+
+@media (max-width: 422px) {
+    #myiframe{
+        max-height: 202px;
+        height: 202px;
+    }
+}
+
+@media (max-width: 370px) {
+    #myiframe{
+        max-height: 223px;
+        height: 223px;
+    }
+}
+
+@media (max-width: 346px) {
+    #myiframe{
+        max-height: 244px;
+        height: 244px;
+    }
 }
