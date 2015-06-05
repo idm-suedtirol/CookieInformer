@@ -5,6 +5,8 @@
     position: relative;
     overflow: hidden;
     transition: max-height linear 1s;
+    -webkit-transition: max-height linear 1s;
+    -moz-transition: max-height linear 1s;
     margin: 0;
 }
 
