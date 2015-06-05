@@ -14,54 +14,34 @@ body{
     margin:0;
 }
 
-@media (max-width: 1383px) {
+@media (max-width: 1080px) {
     #myiframe{
-        max-height: 97px;
+        max-height: 94px;
     }
 }
 
-@media (max-width: 937px) {
+@media (max-width: 770px) {
     #myiframe{
-        max-height: 118px;
+        max-height: 114px;
     }
 }
 
-@media (max-width: 734px) {
+@media (max-width: 575px) {
     #myiframe{
-        max-height: 139px;
+        max-height: 134px;
     }
 }
 
-@media (max-width: 588px) {
+@media (max-width: 455px) {
     #myiframe{
-        max-height: 160px;
-        height:160px;
+        max-height: 154px;
+        height:154px;
     }
 }
-@media (max-width: 460px) {
-    #myiframe{
-        max-height: 181px;
-        height: 181px;
-    }
-}
-
-@media (max-width: 422px) {
-    #myiframe{
-        max-height: 202px;
-        height: 202px;
-    }
-}
-
-@media (max-width: 370px) {
+@media (max-width: 400px) {
     #myiframe{
         max-height: 174px;
         height: 174px;
     }
 }
 
-@media (max-width: 346px) {
-    #myiframe{
-        max-height: 244px;
-        height: 244px;
-    }
-}
