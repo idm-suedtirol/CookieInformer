@@ -54,8 +54,8 @@ body{
 
 @media (max-width: 370px) {
     #myiframe{
-        max-height: 223px;
-        height: 223px;
+        max-height: 174px;
+        height: 174px;
     }
 }
 

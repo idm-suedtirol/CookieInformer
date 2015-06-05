@@ -18,7 +18,7 @@ How-To:
     
 3. The Css-File iframe.css and the Js-File iframescript.js must be included on your website
    `<link rel="stylesheet" href="{domain of Banner}/css/iframe.css" type="text/css">`
-   `<script type="text/javascript" src="{domain of Banner}/javascript/iframescript.js"></script>`
+   `<script type="text/javascript" src="{domain of Banner}/js/iframescript.js"></script>`
                                             
 
 3. (optional) The link may be provided with the parameter lang. When lang = de the banner appears in German, if lang = en     it appears in English and if lang = anything else the banner appears in Italian by default.
