@@ -4,12 +4,14 @@
     max-height: 76px;
     height: 100%;
     position: relative;
+    vertical-align: bottom;
     overflow: hidden;
     display: block;
     transition: max-height linear 1s;
     -webkit-transition: max-height linear 1s;
     -moz-transition: max-height linear 1s;
     margin: 0;
+    border: none;
 }
 
 body{
