@@ -3,6 +3,9 @@
 *   The cookie Informer is a banner that indicates that cookies are set on this website.
 *   The cookie Informer is purely for information and accomplishes no changes in your browser settings.
 *   This cookie Banner can be integrated to any website, referring to the Cookie-policy-side.
+*   The shown Banner disappears, when someone clicks or scrolls on your website.
+*   When it disapperas a Cookie will be set with the name cookiebanner. This cookie allows to hide the banner the next time, when someone reentrates the website.
+*   ATTENTION! The Banner is displayed in the top of your website and it may overlap some content of your website.
 
 How-To:
 
