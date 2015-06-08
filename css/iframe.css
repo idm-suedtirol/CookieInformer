@@ -3,7 +3,10 @@
     width: 100%;
     max-height: 76px;
     height: 100%;
-    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 16777271;
     vertical-align: bottom;
     overflow: hidden;
     display: block;
