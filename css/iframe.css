@@ -2,7 +2,10 @@
 #myiframe {
     width: 100%;
     max-height: 76px;
-    position: relative;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    z-index: 16777271; 
     overflow: hidden;
     transition: max-height linear 1s;
     -webkit-transition: max-height linear 1s;
