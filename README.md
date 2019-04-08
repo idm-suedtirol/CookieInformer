@@ -1,3 +1,8 @@
+DEPRECATED REPOSITORY
+=====================
+
+This repository is deprecated.
+
 # CookieInformer
 
 *   The cookie Informer is a banner that indicates that cookies are set on this website.
